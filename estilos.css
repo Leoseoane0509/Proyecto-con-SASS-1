@@ -1,0 +1,143 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: lightseagreen;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+/* INDEX */
+/* MAIN */
+/* Jumbotron */
+.jumbotron {
+  height: 30rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.811);
+}
+
+.jumbotron h1 {
+  text-shadow: 4px 4px 2px lightseagreen;
+}
+
+.btn {
+  background-color: lightseagreen;
+  box-shadow: 8px 10px 15px 0px rgba(235, 235, 235, 0.75);
+  -webkit-box-shadow: 8px 10px 15px 0px rgba(235, 235, 235, 0.75);
+  -moz-box-shadow: 8px 10px 15px 0px rgba(235, 235, 235, 0.75);
+  border: 1px solid #ebebeb;
+}
+
+.btn:hover {
+  background-color: #2edfd6;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+/* Quién soy */
+#me {
+  height: 50rem;
+  width: 100%;
+  background-color: #8e9eab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#me .me-left {
+  width: 50%;
+  height: 80%;
+}
+
+#me .me-rigth {
+  width: 50%;
+  height: auto;
+}
+
+/* Clientes */
+.clientes {
+  height: auto;
+  width: 100%;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cliente .stars {
+  color: gold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cliente h3 {
+  text-align: center;
+}
+
+.cliente p {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Características */
+.characteristics {
+  height: auto;
+  width: 100%;
+}
+
+.characteristics .list-group {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.characteristics .list-group-item {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.811);
+  border-bottom: thin solid #fff;
+}
+
+footer {
+  background-color: lightseagreen;
+}
+/*# sourceMappingURL=estilos.css.map */

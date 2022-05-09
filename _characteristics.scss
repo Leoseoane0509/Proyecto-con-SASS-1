@@ -1,0 +1,20 @@
+// INDEX
+// MAIN
+// NESTING (&)
+/* Características */
+.characteristics {
+  height: auto;
+  width: $width;
+  & .list-group {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+  & .list-group-item {
+    padding: 2rem;
+    background-color: $bg-color2;
+    border-bottom: thin solid #fff;
+  }
+}

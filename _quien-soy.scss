@@ -1,0 +1,21 @@
+// INDEX
+// MAIN
+// NESTING (&)
+/* Quién soy */
+#me {
+  height: 50rem;
+  width: $width;
+  background-color: $bg-color3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .me-left {
+    width: 50%;
+    height: 80%;
+  }
+  & .me-rigth {
+    width: 50%;
+    height: auto;
+  }
+}

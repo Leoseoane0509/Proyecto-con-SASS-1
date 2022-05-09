@@ -1,0 +1,25 @@
+// INDEX
+// MAIN
+// NESTING (&)
+/* Clientes */
+.clientes {
+  height: auto;
+  width: $width;
+  background-color: $bg-color4;
+  display: flex;
+  flex-direction: column;
+}
+.cliente {
+  & .stars {
+    color: gold;
+    text-align: $t-align;
+    margin-bottom: 1rem;
+  }
+  & h3 {
+    text-align: $t-align;
+  }
+  & p {
+    font-style: italic;
+    text-align: $t-align;
+  }
+}

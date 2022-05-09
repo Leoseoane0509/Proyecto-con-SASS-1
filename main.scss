@@ -1,0 +1,17 @@
+// IMPORTS
+// import de las variables
+@import "_variables";
+// import de las propiedades css generales
+@import "_basicos";
+// import del navbar, que aplica para todos
+@import "_navbar";
+// import del jumbotron del index
+@import "_jumbotron";
+// import de la sección quien soy del index
+@import "_quien-soy";
+// import de la sección clientes del index
+@import "_clientes";
+// import de la sección características del index
+@import "_characteristics";
+// import del footer, que aplica para todos
+@import "_footer";
