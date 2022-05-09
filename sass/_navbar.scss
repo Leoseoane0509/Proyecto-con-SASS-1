@@ -1,7 +1,7 @@
 // Navbar para todos
 .navbar {
   background-color: $bg-color1;
-  .navbar-collapse {
+  & .navbar-collapse {
     justify-content: end;
   }
 }

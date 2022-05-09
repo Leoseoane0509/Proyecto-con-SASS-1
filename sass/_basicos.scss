@@ -6,10 +6,10 @@
 }
 body {
   font-family: $f-family1;
-}
-a {
-  text-decoration: none;
-}
-li {
-  list-style-type: none;
+  & a {
+    text-decoration: none;
+  }
+  & li {
+    list-style-type: none;
+  }
 }
